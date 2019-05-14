@@ -7,22 +7,21 @@
   <title>CSS and HTML Review</title>
 </head>
 <body>
-  <h1 class="hiden">All about HTML and CSS</h1>
+  <h1 class="hidden">All about HTML and CSS(and FlexBox, too!)</h1>
+
     <main>
-      <header>
-        <h2>Welcome to my Awesome Site</h2>
-        <nav>
-          <ul>
-            <li class="nav-button">nav el</li>
-            <li class="nav-button">nav el</li>
-            <li class="nav-button">nav el</li>
-          </ul>
+      <header id="main-header">
+        <nav id="nav-con">
+          <h2 class="hidden">main navigation</h2>
+          <!-- this will probably be UL later -->
+          <div id="main-nav"></div>
+          <div id="sub-nav"></div>
         </nav>
+        <div id="logo"></div>
       </header>
     </main>
-    <footer>
-      <h2 class="hidden">footer</h2>
-    </footer>
-  <script src="js/main.js"></script>
+
+    <footer id="main-footer"></footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
